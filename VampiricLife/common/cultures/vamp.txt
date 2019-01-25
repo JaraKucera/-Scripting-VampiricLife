@@ -1,0 +1,52 @@
+vamp = {
+	graphical_cultures = { westerngfx }
+	
+	alternate_start = {
+		NOT = {
+		has_alternate_start_parameter = {
+			key = special_culture value = animal_world
+			}
+		}
+	}
+	
+	vampire = {
+		graphical_cultures = { westerngfx }
+		
+		color = { 0.5451 0 0}
+		
+		male_names = {
+		Abraham Alfred Archie Arnold Arthur Augustus Baxter Bernard Bert Bram Cassius Charley Clarence Caude Clifford Douglas Edgar Edison Edmund Edwin Elmer Enoch Ernest Everett Fletcher Floyd Frank Franklin Gilbert Grover Harold Harvey Henry Hugh Hugo Ives Ivor Jack Jerome Jules Larkin Leo Louis Luther Martin Merritt Oliver Oscar Otto Phineas Raymond Silas Sterling Tesla Thaddeus Theodore Victor Warren Watson Wellington Willie
+		} 
+		female_names = {
+		Ada Adelaide Adelia Agatha Alexandra Alice Alma Anne Arabella Audrey Bertha Beryl Blanche Briar Catherine Clara Clementine Cora Della Ebba Edith Effie Eleanor Eliza Elizabeth Elsie Emily Emma Esther Evie Flora Florence Frances Harriet Hazel Henrietta Ida Isabella Jane Josephine Josie Lilian Lily Lottie Lucy Luella Mabel Maggie Maida Maisie Marjorie Martha Mary MIllie Minnie Nellie Nora Ottilie Rayne Rose Ruth Sophronia Sylvia Tillie Victoria Vinnie Viola Violet Zadie
+		}
+		
+		dukes_called_kings = yes
+		
+		character_modifier = {
+			martial = 5
+		}
+		allow_looting = no
+		
+		founder_named_dynasties = yes
+		
+		modifier = default_culture_modifier
+		
+		dynasty_name_first = yes
+		
+		from_dynasty_prefix = "of " 
+		
+		bastard_dynasty_prefix = "hail " 
+		
+		 # Male naming after prekin
+		pat_grf_name_chance = 15
+        mat_grf_name_chance = 10
+        father_name_chance = 40
+		
+		# Female naming after prekin
+		pat_grm_name_chance = 20
+        mat_grm_name_chance = 40
+        mother_name_chance = 5
+		
+		}
+}
