@@ -1,7 +1,7 @@
 # VampiricLife
 Crusader Kings 2 custom mod centured around vampiric culture.
 
- *Version 0.01*
+ *Version 0.0.1*
  
   **Currently Implemented**
 - Culture
